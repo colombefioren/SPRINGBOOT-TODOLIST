@@ -1,9 +1,9 @@
 server:
-  port: 8080
+  port: 7000
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/todolist
+    url: jdbc:postgresql://localhost:5433/springboot_todolist
     username: postgres
     password: 1234
   jpa:
