@@ -4,6 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/todolist
+    username: postgres
+    password: 1234
   jpa:
     open-in-view: false
     hibernate:
