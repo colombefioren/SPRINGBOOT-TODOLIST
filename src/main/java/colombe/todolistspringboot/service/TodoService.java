@@ -15,11 +15,11 @@ public class TodoService {
     public TodoService(TodoRepository repository) {
         this.repository = repository;
     }
-    public List<Todo> getAllTodos() {
+    public List<Todo> getAll() {
         return repository.findAll();
     }
 
-    public Todo saveTodo(Todo todo) {
+    public Todo postTodo(Todo todo) {
         return repository.save(todo);
     }
 
